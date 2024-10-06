@@ -1,0 +1,85 @@
+section#contact-us {
+  .container {
+    .contact-us-self {
+      .contact-us-locations {
+        .header {
+          h1 {
+            font-weight: 700;
+            text-align: center;
+          }
+        }
+        .items {
+          .item {
+            background: $app_color_beige;
+            border-radius: 7px;
+            padding-right: 10px;
+            padding-left: 10px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 1rem;
+            .header {
+              text-align: center;
+              margin-bottom: 0.5rem;
+              h2 {
+                font-weight: 700;
+                font-size: larger;
+                color: $app_color_black;
+              }
+            }
+            .details {
+              display: flex;
+              flex-direction: column;
+              span {
+                text-align: center;
+                margin-bottom: 0.35rem;
+                color: $app_color_gray;
+              }
+            }
+            .location {
+              text-align: center;
+              margin-top: 0.75rem;
+              button {
+                width: 50%;
+                border: 1px solid $app_color_brown;
+                border-radius: 5px;
+                padding-top: 3px;
+                padding-bottom: 3px;
+                color: $app_color_black;
+                &:hover {
+                  box-shadow: $app_color_gray 0px 0px 6px;
+                }
+              }
+            }
+          }
+        }
+      }
+      .contact-us-form {
+        .form {
+          .input-group {
+            position: relative;
+            input,
+            textarea {
+              width: 100%;
+              background-color: $app_color_beige;
+              padding-left: 10px;
+              padding-right: 40px;
+              padding-top: 13px;
+              padding-bottom: 13px;
+              border-radius: 7px;
+              &:focus-visible {
+                outline: 0;
+                box-shadow: $app_color_brown 0px 0px 10px;
+              }
+            }
+            .input-icon {
+              right: 5px;
+              position: absolute;
+            }
+          }
+        }
+      }
+    }
+  }
+}

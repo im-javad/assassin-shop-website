@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    background-color: #fff !important;
+    color: #000000 !important;
+    font-family: "vazir" !important;
+    overflow: anywhere;
+  }
+}
+
+@font-face {
+  font-family: vazir;
+  font-style: normal;
+  font-weight: 100;
+  src: url("../assets/fonts/Vazir/Vazir-Thin.eot");
+  src: url("../assets/fonts/Vazir/Vazir-Thin.woff") format("woff"),
+    url("../assets/fonts/Vazir/Vazir-Thin.ttf") format("ttf"),
+    url("../assets/fonts/Vazir/Vazir-Thin.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: vazir;
+  font-style: normal;
+  font-weight: 300;
+  src: url("../assets/fonts/Vazir/Vazir-Light.eot");
+  src: url("../assets/fonts/Vazir/Vazir-Light.woff") format("woff"),
+    url("../assets/fonts/Vazir/Vazir-Light.ttf") format("ttf"),
+    url("../assets/fonts/Vazir/Vazir-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: vazir;
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/Vazir/Vazir-Medium.eot");
+  src: url("../assets/fonts/Vazir/Vazir-Medium.woff") format("woff"),
+    url("../assets/fonts/Vazir/Vazir-Medium.ttf") format("ttf"),
+    url("../assets/fonts/Vazir/Vazir-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: vazir;
+  font-style: normal;
+  font-weight: 950;
+  src: url("../assets/fonts/Vazir/Vazir-Bold.eot");
+  src: url("../assets/fonts/Vazir/Vazir-Bold.woff") format("woff"),
+    url("../assets/fonts/Vazir/Vazir-Bold.ttf") format("ttf"),
+    url("../assets/fonts/Vazir/Vazir-Bold.woff2") format("woff2");
+}
+
+*,
+body {
+  font-family: vazir !important;
+  direction: rtl;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
